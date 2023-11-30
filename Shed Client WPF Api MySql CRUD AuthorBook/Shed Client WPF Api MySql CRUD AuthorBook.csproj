@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Shed_Client_WPF_Api_MySql_CRUD_AuthorBook</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="View\Icon\DeleteBad.png" />
+    <None Remove="View\Icon\EditPen.png" />
+    <None Remove="View\Icon\New.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="View\Icon\DeleteBad.png" />
+    <Resource Include="View\Icon\EditPen.png" />
+    <Resource Include="View\Icon\New.png" />
+  </ItemGroup>
+
+</Project>
